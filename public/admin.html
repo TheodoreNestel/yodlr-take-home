@@ -3,8 +3,84 @@
 <head>
   <meta charset=utf-8>
   <title>Yodlr Admin Page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
-  List user data here
+
+
+  <nav class="nav">
+
+  </nav>
+
+  
+  <div class="adminActions">
+
+    <h1 class="title">Admin Panel</h1>
+  
+    
+    <button class="adminCreateAccount">Create User</button>
+
+    <form action="" class="AdminCreateUser" is-visible="false" hidden="true">
+
+      <div class="input">
+        <label for="emailField" class="input__label">Email Address</label>
+        <div class="input__input">
+          <div class="input__icon"></div>
+          <input type="text" id="emailField">
+        </div>
+      </div>
+
+
+      <div class="input">
+        <label for="firstName" class="input__label">First Name</label>
+        <div class="input__input">
+          <div class="input__icon"></div>
+          <input type="text" id="firstName">
+        </div>
+      </div>
+
+      <div class="input">
+        <label for="lastName" class="input__label">Last Name</label>
+        <div class="input__input">
+          <div class="input__icon"></div>
+          <input type="text" id="lastName">
+        </div>
+      </div>
+
+
+      <div class="input">
+        <label for="accountStatusEnabled" class="input__label">Account Status Enabled</label>
+        <div class="input__input">
+          <div class="input__icon"></div>
+          <input type="radio" id="accountStatusEnabled" name="radio" value="active">
+        </div>
+      </div>
+
+      <div class="input">
+        <label for="accountStatusDisabled" class="input__label">Account Status Pending</label>
+        <div class="input__input">
+          <div class="input__icon"></div>
+          <input type="radio" id="accountStatusDisabled" name="radio" value="pending" checked>
+        </div>
+      </div>
+
+      <button class="button">Submit</button>
+
+    </form>
+
+
+  </div>
+
+<ul class="users">
+  Place holder users go here // FirstName LastName Email - Activate Account
+</ul>
+
+
+
+<script src="js/admin.js"></script>
 </body>
+
 </html>

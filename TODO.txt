@@ -1,0 +1,47 @@
+We kindly ask that you spend no more than 6-8 hours on this challenge.
+
+At a minimum, there are three things we would like to see:
+
+Users should be able to register
+Admin page should list all users
+Design/layout of content
+We will of course examine your code for readability, architectural decisions, and modularity. If/when you meet with us, be prepared to talk about why and how you built your interfaces.
+
+
+
+If you have additional time after completing the requirements (we think you should), then we'd love to see what else you can do. Here are some ideas to get you started (but please don't limit yourself to these!).
+
+Experiment with alternative designs (A/B Testing is important for registration!)
+Signup form validation
+Automated testing
+Dynamic data on Admin page (no need to refresh to status changes)
+Sorting/Searching of users
+Admin button to activate accounts (set user status to 'active')
+Admin creation of new accounts
+Optimize assets (minimize and/or bundle css/js)
+Authentication/Authorization
+To be perfectly clear, we don't expect that anyone could complete all of these in 6-8 hours. This is simply a list of ideas to inspire you.
+
+
+
+
+
+THEO TODO
+
+mostly all done needs some more notes and styling so 
+
+-Styling of the entire app
+-Notes of the entire app 
+-maybe make the landing page after a user signs up display their first and last name (idk if we can do that withouth using backend)
+
+
+
+
+
+Stuff I did over the weekend:
+
+-Made it so the admin could create a user 
+-made it so the admin can pre-set the user's account status while manually creating a new user 
+-added the radio button functionality 
+-made it so the admin panel's create a user button hide/reveals the user creation form 
+-added ajax logic so when a user is created by the admin it is immediatly displayed without a page refresh 
